@@ -5,3 +5,5 @@ Co-occurrence Feature Learning from Skeleton Data for Action Recognition and Det
 
 Only the multi person action recognition is implemented, while the detection part could be extented by this code.
 Since the author has not released the original code, this implementation could miss some details, so it is just for reference.
+
+![workflow from original paper](https://github.com/fandulu/Keras-for-Co-occurrence-Feature-Learning-from-Skeleton-Data-for-Action-Recognition/blob/master/fig.png)
