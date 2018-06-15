@@ -49,10 +49,10 @@ class SBU_dataset():
 
         for pose_path in self.pose_paths:
             pose = read_txt(pose_path)
-            if pose_path.split('/')[7] in train_set:   
-                train[int(pose_path.split('/')[8])].append(pose) 
+            if pose_path.split('/')[-4] in train_set:   
+                train[int(pose_path.split('/')[-3])].append(pose) 
             else:
-                test[int(pose_path.split('/')[8])].append(pose) 
+                test[int(pose_path.split('/')[-3])].append(pose) 
 
         return train, test
         
